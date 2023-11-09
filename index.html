@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <a href="" onclick="callAlert()">Click me</a> -->
+    <a href="" onclick="callAlert()">Click on this line</a>
+    <!-- <img src="car.avif" alt="" style="width: 200px;" onclick=""> -->
+    <img src="mobile-revvl6-1.jpg" alt="" style="width: 100px;" onclick="purchasing()">>
+    <img src="mobile2.jpg" alt="" style="width: 70px;" onclick="purchasing()">
+    <img src="mobile3.jpg" alt="" style="width: 120px;" onclick="purchasing()">
+
+
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkzAgJ1_r_F3Ln-QtrAVhn5UWSwzpM0G-ePF3-Q-0&s" alt=""
+        onmouseover="src='https://img.freepik.com/free-photo/sports-car-driving-asphalt-road-night-generative-ai_188544-8052.jpg'"
+        onmouseout="src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkzAgJ1_r_F3Ln-QtrAVhn5UWSwzpM0G-ePF3-Q-0&s'" />
+
+    <div class="counter">
+        <button id="decrease" >-</button>
+        <span id="counter-value">0</span>
+        <button id="increase"  >+</button>
+    </div>
+
+    <table id="studentTable">
+        <tr>
+            <td>Index</td>
+            <td>Name</td>
+            <td> Class</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>0</td>
+            <td>John</td>
+            <td>10</td>
+            <td><button onclick="deleteRow(1)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Mark</td>
+            <td>9</td>
+            <td><button onclick="deleteRow(2)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Doe</td>
+            <td>9</td>
+            <td><button onclick="deleteRow(3)">Delete</button></td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>James</td>
+          <td>8</td>
+          <td><button onclick="deleteRow(3)">Delete</button></td>  
+        </tr>
+    </table>
+     <script src="app.js"></script>   
+</body>
+
+</html>
